@@ -36,6 +36,12 @@
     <ClCompile Include="Creator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="contactUs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Favorite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Users.h">
@@ -54,6 +60,12 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="Creator.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="contactUs.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Favorite.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

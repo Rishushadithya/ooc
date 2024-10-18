@@ -21,6 +21,12 @@ void Moderator::view_Summary()
 	// Implement view summary function
 }
 
+void Moderator::manage_contactUs_messages(contactUs *c1 , contactUs *c2)
+{
+	C[0]=c1;
+	C[1]=c2;
+}
+
 void Moderator::manage_Pending_Recipes()
 {
 	// Implement manage pending recipes function
