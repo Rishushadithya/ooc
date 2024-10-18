@@ -1,12 +1,9 @@
 #pragma once
 #include <iostream>
 #include <string>
-
 using namespace std;
 
-
 class Recipe {
-
 private:
 	int recipe_ID;
 	string recipe_Name;

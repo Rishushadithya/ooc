@@ -128,7 +128,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Admin.cpp" />
+    <ClCompile Include="contactUs.cpp" />
     <ClCompile Include="Creator.cpp" />
+    <ClCompile Include="Favorite.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Moderator.cpp" />
     <ClCompile Include="Recipe.cpp" />
@@ -137,7 +139,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Admin.h" />
+    <ClInclude Include="contactUs.h" />
     <ClInclude Include="Creator.h" />
+    <ClInclude Include="Favorite.h" />
     <ClInclude Include="Moderator.h" />
     <ClInclude Include="Recipe.h" />
     <ClInclude Include="User.h" />

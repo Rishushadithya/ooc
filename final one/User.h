@@ -12,13 +12,15 @@ private:
 	string country;
 public:
 	User();
+	User(int uID, string uName, int uContact, string uCountry, string uEmail, string uPassword);
 	void view_All_Recipes();
-	void add_to_Favorite(int uID);
-	void download_Recipe(int uID);
-	void contact_Us(int uID);
+	void add_to_Favorite();
+	void download_Recipe();
+	void contact_Us();
+	void become_a_Creator();
 	void display();
-	void update_Profile(int uID, string uName);
-	void delete_Profile(int uID, string uName);
+	void update_Profile();
+	void delete_Profile();
 
 	~User();
 };
